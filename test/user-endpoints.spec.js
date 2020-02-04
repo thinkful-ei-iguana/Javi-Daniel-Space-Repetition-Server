@@ -165,24 +165,24 @@ describe('User Endpoints', function () {
           )
       })
 
-      it(`inserts 1 language with words for the new user`, () => {
+      it.only(`inserts 1 language with words for the new user`, () => {
         const newUser = {
           username: 'test username',
           password: '11AAaa!!',
           name: 'test name',
         }
         const expectedList = {
-          name: 'French',
+          name: 'German',
           total_score: 0,
           words: [
-            { original: 'entraine toi', translation: 'practice' },
-            { original: 'bonjour', translation: 'hello' },
-            { original: 'maison', translation: 'house' },
-            { original: 'développeur', translation: 'developer' },
-            { original: 'traduire', translation: 'translate' },
-            { original: 'incroyable', translation: 'amazing' },
-            { original: 'chien', translation: 'dog' },
-            { original: 'chat', translation: 'cat' },
+            { original: 'jahr', translation: 'year' },
+            { original: 'lachen', translation: 'laugh' },
+            { original: 'klein', translation: 'small' },
+            { original: 'schwierig', translation: 'difficult' },
+            { original: 'hallo', translation: 'hello' },
+            { original: 'danke', translation: 'thank you' },
+            { original: 'wasser', translation: 'water' },
+            { original: 'kopf', translation: 'head' },
           ]
         }
         return supertest(app)
