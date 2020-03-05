@@ -1,5 +1,13 @@
 # Spaced repetition API!
 
+## Link to live version: <link here>
+ 
+## Project collaborators:
+    Daniel Kent & Javier Zapien
+## Client link:
+   https://github.com/thinkful-ei-iguana/Javi-Daniel-Space-Repetition-client/blob/master/README.md
+
+
 ## Local dev setup
 
 If using user `dunder-mifflin`:
