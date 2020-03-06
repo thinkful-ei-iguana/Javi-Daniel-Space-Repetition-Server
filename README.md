@@ -1,6 +1,7 @@
 # Spaced repetition API!
 
-## Link to live version: <link here>
+## Link to live version:
+https://language-rep.now.sh/register
  
 ## Project collaborators:
     Daniel Kent & Javier Zapien
